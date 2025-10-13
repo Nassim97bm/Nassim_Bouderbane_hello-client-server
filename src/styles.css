@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(159, 218, 218);
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    margin: 0;
+}
+
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+}
+
+button, label, input{
+    margin: 5px;
+}
+
+button{
+    padding: 10px;
+    width: 100px;
+    background-color: #e77b72;
+    border-radius: 10%;
+    color: white;
+    font-weight: bold;
+    box-shadow: 2px 2px black;
+}
